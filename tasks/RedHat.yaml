@@ -1,0 +1,6 @@
+---
+- name: Install epel
+  yum: pkg=epel-release
+
+- name: Yum install Octave in REL system
+  yum: pkg=octave update_cache=yes
